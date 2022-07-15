@@ -1,0 +1,10 @@
+## Python Coffee Machine Program
+
+1. Prompt user by asking "What would you like? (espresso/latte/cappuccino):”
+2. Turn off the Coffee Machine by entering “off” to the prompt.
+3. Print report.
+4. Check resources sufficient?
+5. Refill machine's resources when low.
+6. Process coins.
+7. Check transaction successful?
+8. If transaction was successful, make Coffee.
