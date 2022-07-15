@@ -1,4 +1,4 @@
-## Python Coffee Machine Program
+# Python Coffee Machine Program
 
 1. Prompt user by asking "What would you like? (espresso/latte/cappuccino):”
 2. Turn off the Coffee Machine by entering “off” to the prompt.
