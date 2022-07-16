@@ -54,12 +54,14 @@ def update_resources(coffee_drink):
 
 
 def check_resources(coffee_drink):
+    check = True
     ingredients = coffee_drink["ingredients"]
     for ingredient in ingredients:
         if resources[ingredient] < ingredients[ingredient]:
             print(f"Sorry there is not enough {ingredient}!")
-            return False
-    return True
+            check = False
+
+    return check
 
 
 while machine_is_on:
